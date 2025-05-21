@@ -49,6 +49,7 @@ int main() {
 	}
 	
 	// Mostrar mensaje dependiendo la cantidad de parejas
+	printf("En el rango de numeros de %d digitos [%d,%d]\n", cant_cifras, min, max);
 	if (current == 0) printf("No existen parejas de numeros congluentes con el numero %d\n", divisor);
 	else if (current == 1) printf("Existe %d pareja de numeros congluentes con el numero %d\n", current, divisor);
 	else printf("Existen %d parejas de numeros congluentes con el numero %d\n", current, divisor);
