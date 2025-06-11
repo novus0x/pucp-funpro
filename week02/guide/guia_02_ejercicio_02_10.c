@@ -6,7 +6,6 @@ int main() {
 	double g, m, s;
 	double r;
 
-
 	// Operations
 	printf("[!] Programa hecho para realizar la conversion a radianes: ");
 	printf("[?] Ingresar grados, minutos y segundos: ");
